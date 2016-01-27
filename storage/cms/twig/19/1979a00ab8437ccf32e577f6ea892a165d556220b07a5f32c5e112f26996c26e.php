@@ -35,13 +35,13 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
     <!-- Bootstrap Core CSS -->
     <link href=\"";
         // line 15
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/css/bootstrap.min.css", 1 => "assets/css/grayscale.css"));
-        // line 17
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/css/bootstrap.min.css", 1 => "assets/css/grayscale.css", 2 => "assets/css/custom.css"));
+        // line 18
         echo "\" rel=\"stylesheet\">
 
     <!-- Custom Fonts -->
     <link href=\"";
-        // line 20
+        // line 21
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/font-awesome/css/font-awesome.min.css"));
         echo "\" rel=\"stylesheet\" type=\"text/css\">
     <link href=\"http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic\" rel=\"stylesheet\" type=\"text/css\">
@@ -59,15 +59,15 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 <body id=\"page-top\" data-spy=\"scroll\" data-target=\".navbar-fixed-top\">
     
     ";
-        // line 35
-        echo $this->env->getExtension('CMS')->pageFunction();
         // line 36
+        echo $this->env->getExtension('CMS')->pageFunction();
+        // line 37
         echo "    
 <!-- jQuery -->
     <script src=\"";
-        // line 38
+        // line 39
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/javascript/bootstrap.min.js", 2 => "assets/javascript/jquery.easing.min.js", 3 => "assets/javascript/grayscale.js"));
-        // line 42
+        // line 43
         echo "\"></script>
 
 
@@ -91,7 +91,7 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 
     public function getDebugInfo()
     {
-        return array (  71 => 42,  69 => 38,  65 => 36,  63 => 35,  45 => 20,  40 => 17,  38 => 15,  32 => 12,  19 => 1,);
+        return array (  71 => 43,  69 => 39,  65 => 37,  63 => 36,  45 => 21,  40 => 18,  38 => 15,  32 => 12,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -109,7 +109,8 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 /* */
 /*     <!-- Bootstrap Core CSS -->*/
 /*     <link href="{{ ['assets/css/bootstrap.min.css',*/
-/*                     'assets/css/grayscale.css'*/
+/*                     'assets/css/grayscale.css',*/
+/*                     'assets/css/custom.css'*/
 /*                     ]|theme }}" rel="stylesheet">*/
 /* */
 /*     <!-- Custom Fonts -->*/

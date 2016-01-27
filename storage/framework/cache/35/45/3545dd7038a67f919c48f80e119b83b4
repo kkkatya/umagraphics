@@ -1,4 +1,4 @@
-1453929372s:10391:"a:6:{s:5:"mtime";i:1453924010;s:7:"content";s:5104:"title = "Home"
+1453932292s:10283:"a:6:{s:5:"mtime";i:1453931689;s:7:"content";s:5050:"title = "Home"
 url = "/"
 layout = "amugraphics_layout"
 is_hidden = 0
@@ -6,9 +6,7 @@ is_hidden = 0
 <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
-                <img src="{{['assets/images/logo.png']|theme }}"/>
-            </div>
+                <img id="logo" src="{{'assets/images/logo.png'|theme }}">
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -106,12 +104,10 @@ is_hidden = 0
         <div class="container text-center">
             <p>Copyright &copy; Your Website 2014</p>
         </div>
-    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5027:"<!-- Navigation -->
+    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4973:"<!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
-                <img src="{{['assets/images/logo.png']|theme }}"/>
-            </div>
+                <img id="logo" src="{{'assets/images/logo.png'|theme }}">
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">

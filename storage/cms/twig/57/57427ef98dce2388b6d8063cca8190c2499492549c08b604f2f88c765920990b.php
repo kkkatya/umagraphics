@@ -19,12 +19,10 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
         echo "<!-- Navigation -->
     <nav class=\"navbar navbar-custom navbar-fixed-top\" role=\"navigation\">
         <div class=\"container\">
-            <div class=\"navbar-header\">
-                <img src=\"";
-        // line 5
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/images/logo.png"));
-        echo "\"/>
-            </div>
+                <img id=\"logo\" src=\"";
+        // line 4
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/logo.png");
+        echo "\">
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class=\"collapse navbar-collapse navbar-right navbar-main-collapse\">
@@ -137,15 +135,13 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 
     public function getDebugInfo()
     {
-        return array (  25 => 5,  19 => 1,);
+        return array (  24 => 4,  19 => 1,);
     }
 }
 /* <!-- Navigation -->*/
 /*     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">*/
 /*         <div class="container">*/
-/*             <div class="navbar-header">*/
-/*                 <img src="{{['assets/images/logo.png']|theme }}"/>*/
-/*             </div>*/
+/*                 <img id="logo" src="{{'assets/images/logo.png'|theme }}">*/
 /* */
 /*             <!-- Collect the nav links, forms, and other content for toggling -->*/
 /*             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">*/
