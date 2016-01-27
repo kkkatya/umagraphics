@@ -2,3 +2,4 @@
 *.log
 storage/framework/cache/*
 storage/framework/sessions/*
+storage/*
