@@ -20,12 +20,10 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
     <nav class=\"navbar navbar-custom navbar-fixed-top\" role=\"navigation\">
         <div class=\"container\">
             <div class=\"navbar-header\">
-                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-main-collapse\">
-                    <i class=\"fa fa-bars\"></i>
-                </button>
-                <a class=\"navbar-brand page-scroll\" href=\"#page-top\">
-                    <i class=\"fa fa-play-circle\"></i>  <span class=\"light\">Start</span> Bootstrap
-                </a>
+                <img src=\"";
+        // line 5
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/logo.png");
+        echo "\">
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +37,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                         <a class=\"page-scroll\" href=\"#about\">About</a>
                     </li>
                     <li>
-                        <a class=\"page-scroll\" href=\"#download\">Download</a>
+                        <a class=\"page-scroll\" href=\"#download\">Portfolio</a>
                     </li>
                     <li>
                         <a class=\"page-scroll\" href=\"#contact\">Contact</a>
@@ -57,8 +55,8 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
             <div class=\"container\">
                 <div class=\"row\">
                     <div class=\"col-md-8 col-md-offset-2\">
-                        <h1 class=\"brand-heading\">Grayscale</h1>
-                        <p class=\"intro-text\">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <h1 class=\"brand-heading\">Umagraphics</h1>
+                        <p class=\"intro-text\"></p>
                         <a href=\"#about\" class=\"btn btn-circle page-scroll\">
                             <i class=\"fa fa-angle-double-down animated\"></i>
                         </a>
@@ -132,21 +130,21 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
         return "C:\\xampp\\htdocs/themes/demo/pages/index.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  25 => 5,  19 => 1,);
     }
 }
 /* <!-- Navigation -->*/
 /*     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">*/
 /*         <div class="container">*/
 /*             <div class="navbar-header">*/
-/*                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">*/
-/*                     <i class="fa fa-bars"></i>*/
-/*                 </button>*/
-/*                 <a class="navbar-brand page-scroll" href="#page-top">*/
-/*                     <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap*/
-/*                 </a>*/
+/*                 <img src="{{'assets/images/logo.png'|theme }}">*/
 /*             </div>*/
 /* */
 /*             <!-- Collect the nav links, forms, and other content for toggling -->*/
@@ -160,7 +158,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                         <a class="page-scroll" href="#about">About</a>*/
 /*                     </li>*/
 /*                     <li>*/
-/*                         <a class="page-scroll" href="#download">Download</a>*/
+/*                         <a class="page-scroll" href="#download">Portfolio</a>*/
 /*                     </li>*/
 /*                     <li>*/
 /*                         <a class="page-scroll" href="#contact">Contact</a>*/
@@ -178,8 +176,8 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*             <div class="container">*/
 /*                 <div class="row">*/
 /*                     <div class="col-md-8 col-md-offset-2">*/
-/*                         <h1 class="brand-heading">Grayscale</h1>*/
-/*                         <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>*/
+/*                         <h1 class="brand-heading">Umagraphics</h1>*/
+/*                         <p class="intro-text"></p>*/
 /*                         <a href="#about" class="btn btn-circle page-scroll">*/
 /*                             <i class="fa fa-angle-double-down animated"></i>*/
 /*                         </a>*/
