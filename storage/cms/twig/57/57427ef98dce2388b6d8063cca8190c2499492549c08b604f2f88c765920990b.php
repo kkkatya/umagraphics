@@ -77,13 +77,67 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
     </section>
 
     <!-- Download Section -->
-    <section id=\"download\" class=\"content-section text-center\">
-        <div class=\"download-section\">
+    <section id=\"portfolio\" id=\"download\" class=\"content-section text-center\">
             <div class=\"container\">
                 <div class=\"col-lg-8 col-lg-offset-2\">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href=\"http://startbootstrap.com/template-overviews/grayscale/\" class=\"btn btn-default btn-lg\">Visit Download Page</a>
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+        <div class=\"row\">
+            <div class=\"row\">
+                <div class=\"col-sm-3 portfolio-item\">
+                    <a href=\"#portfolioModal1\" class=\"portfolio-link\" data-toggle=\"modal\">
+                        <div class=\"caption\">
+                            <div class=\"caption-content\">
+                                <i class=\"fa fa-search-plus fa-3x\"></i>
+                            </div>
+                        </div>
+                        <img id=\"square\" src=\"";
+        // line 74
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
+        echo "\">
+                    </a>
+                </div>
+                <div class=\"col-sm-3 portfolio-item\">
+                    <a href=\"#portfolioModal2\" class=\"portfolio-link\" data-toggle=\"modal\">
+                        <div class=\"caption\">
+                            <div class=\"caption-content\">
+                                <i class=\"fa fa-search-plus fa-3x\"></i>
+                            </div>
+                        </div>
+                        <img id=\"square\" src=\"";
+        // line 84
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
+        echo "\">
+                    </a>
+                </div>
+            </div>
+            <div class=\"row\">
+                <div class=\"col-sm-3 portfolio-item\">
+                    <a href=\"#portfolioModal4\" class=\"portfolio-link\" data-toggle=\"modal\">
+                        <div class=\"caption\">
+                            <div class=\"caption-content\">
+                                <i class=\"fa fa-search-plus fa-3x\"></i>
+                            </div>
+                        </div>
+                        <img id=\"square\" src=\"";
+        // line 96
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
+        echo "\">
+                    </a>
+                </div>
+                <div class=\"col-sm-3 portfolio-item\">
+                    <a href=\"#portfolioModal5\" class=\"portfolio-link\" data-toggle=\"modal\">
+                        <div class=\"caption\">
+                            <div class=\"caption-content\">
+                                <i class=\"fa fa-search-plus fa-3x\"></i>
+                            </div>
+                        </div>
+                        <img id=\"square\" src=\"";
+        // line 106
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
+        echo "\">
+                    </a>
                 </div>
             </div>
         </div>
@@ -135,7 +189,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 
     public function getDebugInfo()
     {
-        return array (  24 => 4,  19 => 1,);
+        return array (  138 => 106,  125 => 96,  110 => 84,  97 => 74,  24 => 4,  19 => 1,);
     }
 }
 /* <!-- Navigation -->*/
@@ -196,13 +250,55 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*     </section>*/
 /* */
 /*     <!-- Download Section -->*/
-/*     <section id="download" class="content-section text-center">*/
-/*         <div class="download-section">*/
+/*     <section id="portfolio" id="download" class="content-section text-center">*/
 /*             <div class="container">*/
 /*                 <div class="col-lg-8 col-lg-offset-2">*/
-/*                     <h2>Download Grayscale</h2>*/
-/*                     <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>*/
-/*                     <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>*/
+/*                     <h2>Portfolio</h2>*/
+/*                 </div>*/
+/*             </div>*/
+/*         <div class="row">*/
+/*             <div class="row">*/
+/*                 <div class="col-sm-3 portfolio-item">*/
+/*                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">*/
+/*                         <div class="caption">*/
+/*                             <div class="caption-content">*/
+/*                                 <i class="fa fa-search-plus fa-3x"></i>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
+/*                     </a>*/
+/*                 </div>*/
+/*                 <div class="col-sm-3 portfolio-item">*/
+/*                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">*/
+/*                         <div class="caption">*/
+/*                             <div class="caption-content">*/
+/*                                 <i class="fa fa-search-plus fa-3x"></i>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
+/*                     </a>*/
+/*                 </div>*/
+/*             </div>*/
+/*             <div class="row">*/
+/*                 <div class="col-sm-3 portfolio-item">*/
+/*                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">*/
+/*                         <div class="caption">*/
+/*                             <div class="caption-content">*/
+/*                                 <i class="fa fa-search-plus fa-3x"></i>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
+/*                     </a>*/
+/*                 </div>*/
+/*                 <div class="col-sm-3 portfolio-item">*/
+/*                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">*/
+/*                         <div class="caption">*/
+/*                             <div class="caption-content">*/
+/*                                 <i class="fa fa-search-plus fa-3x"></i>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
+/*                     </a>*/
 /*                 </div>*/
 /*             </div>*/
 /*         </div>*/

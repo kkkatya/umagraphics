@@ -38,11 +38,16 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/css/bootstrap.min.css", 1 => "assets/css/grayscale.css", 2 => "assets/css/custom.css"));
         // line 18
         echo "\" rel=\"stylesheet\">
+                    
+    <link href=\"";
+        // line 20
+        echo $this->env->getExtension('CMS')->themeFilter("assets/css/freelancer.css");
+        echo "\" rel=\"stylesheet\">
 
     <!-- Custom Fonts -->
     <link href=\"";
-        // line 21
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/font-awesome/css/font-awesome.min.css"));
+        // line 23
+        echo $this->env->getExtension('CMS')->themeFilter("assets/font-awesome/css/font-awesome.min.css");
         echo "\" rel=\"stylesheet\" type=\"text/css\">
     <link href=\"http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic\" rel=\"stylesheet\" type=\"text/css\">
     <link href=\"http://fonts.googleapis.com/css?family=Montserrat:400,700\" rel=\"stylesheet\" type=\"text/css\">
@@ -59,15 +64,15 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 <body id=\"page-top\" data-spy=\"scroll\" data-target=\".navbar-fixed-top\">
     
     ";
-        // line 36
+        // line 38
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 37
+        // line 39
         echo "    
 <!-- jQuery -->
     <script src=\"";
-        // line 39
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/javascript/bootstrap.min.js", 2 => "assets/javascript/jquery.easing.min.js", 3 => "assets/javascript/grayscale.js"));
-        // line 43
+        // line 41
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/javascript/bootstrap.min.js", 2 => "assets/javascript/jquery.easing.min.js", 3 => "assets/javascript/grayscale.js", 4 => "assets/javascript/freelancer.js"));
+        // line 46
         echo "\"></script>
 
 
@@ -91,7 +96,7 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 
     public function getDebugInfo()
     {
-        return array (  71 => 43,  69 => 39,  65 => 37,  63 => 36,  45 => 21,  40 => 18,  38 => 15,  32 => 12,  19 => 1,);
+        return array (  76 => 46,  74 => 41,  70 => 39,  68 => 38,  50 => 23,  44 => 20,  40 => 18,  38 => 15,  32 => 12,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -112,9 +117,11 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 /*                     'assets/css/grayscale.css',*/
 /*                     'assets/css/custom.css'*/
 /*                     ]|theme }}" rel="stylesheet">*/
+/*                     */
+/*     <link href="{{ 'assets/css/freelancer.css'|theme }}" rel="stylesheet">*/
 /* */
 /*     <!-- Custom Fonts -->*/
-/*     <link href="{{['assets/font-awesome/css/font-awesome.min.css']|theme}}" rel="stylesheet" type="text/css">*/
+/*     <link href="{{'assets/font-awesome/css/font-awesome.min.css'|theme}}" rel="stylesheet" type="text/css">*/
 /*     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">*/
 /*     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">*/
 /* */
@@ -135,7 +142,8 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 /*     <script src="{{['assets/javascript/jquery.js',*/
 /*                     'assets/javascript/bootstrap.min.js',*/
 /*                     'assets/javascript/jquery.easing.min.js',*/
-/*                     'assets/javascript/grayscale.js'*/
+/*                     'assets/javascript/grayscale.js',*/
+/*                     'assets/javascript/freelancer.js'*/
 /*     ]|theme}}"></script>*/
 /* */
 /* */
