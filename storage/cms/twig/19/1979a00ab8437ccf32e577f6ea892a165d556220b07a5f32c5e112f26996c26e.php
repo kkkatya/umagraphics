@@ -71,8 +71,8 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 <!-- jQuery -->
     <script src=\"";
         // line 41
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/javascript/bootstrap.min.js", 2 => "assets/javascript/jquery.easing.min.js", 3 => "assets/javascript/grayscale.js", 4 => "assets/javascript/freelancer.js"));
-        // line 46
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/javascript/bootstrap.min.js", 2 => "assets/javascript/jquery.easing.min.js", 3 => "assets/javascript/grayscale.js"));
+        // line 45
         echo "\"></script>
 
 
@@ -96,7 +96,7 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 
     public function getDebugInfo()
     {
-        return array (  76 => 46,  74 => 41,  70 => 39,  68 => 38,  50 => 23,  44 => 20,  40 => 18,  38 => 15,  32 => 12,  19 => 1,);
+        return array (  76 => 45,  74 => 41,  70 => 39,  68 => 38,  50 => 23,  44 => 20,  40 => 18,  38 => 15,  32 => 12,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -142,8 +142,7 @@ class __TwigTemplate_87aa62f87fadbc51f92e8c5453b997ab5954e69b637a0d61963151c910f
 /*     <script src="{{['assets/javascript/jquery.js',*/
 /*                     'assets/javascript/bootstrap.min.js',*/
 /*                     'assets/javascript/jquery.easing.min.js',*/
-/*                     'assets/javascript/grayscale.js',*/
-/*                     'assets/javascript/freelancer.js'*/
+/*                     'assets/javascript/grayscale.js'*/
 /*     ]|theme}}"></script>*/
 /* */
 /* */

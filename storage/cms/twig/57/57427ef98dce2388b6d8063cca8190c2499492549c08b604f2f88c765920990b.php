@@ -83,11 +83,11 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                     <h2>Portfolio</h2>
                 </div>
             </div>
-        <div class=\"row\">
+        <div id=\"portfolio-top\" class=\"col-lg-12 col-lg-offset-3\">
             <div class=\"row\">
                 <div class=\"col-sm-3 portfolio-item\">
                     <a href=\"#portfolioModal1\" class=\"portfolio-link\" data-toggle=\"modal\">
-                        <div class=\"caption\">
+                        <div class=\"whiteback caption\">
                             <div class=\"caption-content\">
                                 <i class=\"fa fa-search-plus fa-3x\"></i>
                             </div>
@@ -172,7 +172,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
     <!-- Footer -->
     <footer>
         <div class=\"container text-center\">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Uma Graphics &copy; 2016</p>
         </div>
     </footer>";
     }
@@ -256,11 +256,11 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                     <h2>Portfolio</h2>*/
 /*                 </div>*/
 /*             </div>*/
-/*         <div class="row">*/
+/*         <div id="portfolio-top" class="col-lg-12 col-lg-offset-3">*/
 /*             <div class="row">*/
 /*                 <div class="col-sm-3 portfolio-item">*/
 /*                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">*/
-/*                         <div class="caption">*/
+/*                         <div class="whiteback caption">*/
 /*                             <div class="caption-content">*/
 /*                                 <i class="fa fa-search-plus fa-3x"></i>*/
 /*                             </div>*/
@@ -333,6 +333,6 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*     <!-- Footer -->*/
 /*     <footer>*/
 /*         <div class="container text-center">*/
-/*             <p>Copyright &copy; Your Website 2014</p>*/
+/*             <p>Uma Graphics &copy; 2016</p>*/
 /*         </div>*/
 /*     </footer>*/
