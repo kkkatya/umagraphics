@@ -9,11 +9,6 @@ height: 50%;
 width: 50%;
 }
 
-.navbar-collapse {
-margin-bottom: 2%;
-margin-top: 3%;
-}
-
 #portfolio-top {
 margin-top: 25px;
 }
@@ -21,4 +16,9 @@ margin-top: 25px;
 .whiteback {
 height: 200px;
 background-color: #ffffff;
+}
+
+#contact {
+margin-top: 500px;
+margin-bottom: -30%;
 }

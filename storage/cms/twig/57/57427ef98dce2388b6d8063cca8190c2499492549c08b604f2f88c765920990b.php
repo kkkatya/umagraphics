@@ -19,10 +19,11 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
         echo "<!-- Navigation -->
     <nav class=\"navbar navbar-custom navbar-fixed-top\" role=\"navigation\">
         <div class=\"container\">
-                <img id=\"logo\" src=\"";
-        // line 4
-        echo $this->env->getExtension('CMS')->themeFilter("assets/images/logo.png");
-        echo "\">
+            <div class=\"navbar-header\">
+                <a style=\"font-size:15px\" class=\"navbar-brand page-scroll\" href=\"#page-top\">
+                     Umagraphics
+                </a>
+            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class=\"collapse navbar-collapse navbar-right navbar-main-collapse\">
@@ -35,7 +36,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                         <a class=\"page-scroll\" href=\"#about\">About</a>
                     </li>
                     <li>
-                        <a class=\"page-scroll\" href=\"#download\">Portfolio</a>
+                        <a class=\"page-scroll\" href=\"#portfolio\">Portfolio</a>
                     </li>
                     <li>
                         <a class=\"page-scroll\" href=\"#contact\">Contact</a>
@@ -93,7 +94,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                             </div>
                         </div>
                         <img id=\"square\" src=\"";
-        // line 74
+        // line 78
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
         echo "\">
                     </a>
@@ -106,7 +107,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                             </div>
                         </div>
                         <img id=\"square\" src=\"";
-        // line 84
+        // line 88
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
         echo "\">
                     </a>
@@ -121,7 +122,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                             </div>
                         </div>
                         <img id=\"square\" src=\"";
-        // line 96
+        // line 100
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
         echo "\">
                     </a>
@@ -134,7 +135,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                             </div>
                         </div>
                         <img id=\"square\" src=\"";
-        // line 106
+        // line 110
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
         echo "\">
                     </a>
@@ -189,13 +190,17 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 
     public function getDebugInfo()
     {
-        return array (  138 => 106,  125 => 96,  110 => 84,  97 => 74,  24 => 4,  19 => 1,);
+        return array (  139 => 110,  126 => 100,  111 => 88,  98 => 78,  19 => 1,);
     }
 }
 /* <!-- Navigation -->*/
 /*     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">*/
 /*         <div class="container">*/
-/*                 <img id="logo" src="{{'assets/images/logo.png'|theme }}">*/
+/*             <div class="navbar-header">*/
+/*                 <a style="font-size:15px" class="navbar-brand page-scroll" href="#page-top">*/
+/*                      Umagraphics*/
+/*                 </a>*/
+/*             </div>*/
 /* */
 /*             <!-- Collect the nav links, forms, and other content for toggling -->*/
 /*             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">*/
@@ -208,7 +213,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                         <a class="page-scroll" href="#about">About</a>*/
 /*                     </li>*/
 /*                     <li>*/
-/*                         <a class="page-scroll" href="#download">Portfolio</a>*/
+/*                         <a class="page-scroll" href="#portfolio">Portfolio</a>*/
 /*                     </li>*/
 /*                     <li>*/
 /*                         <a class="page-scroll" href="#contact">Contact</a>*/

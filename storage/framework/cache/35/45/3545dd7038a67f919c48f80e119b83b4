@@ -1,4 +1,4 @@
-1454076943s:14143:"a:6:{s:5:"mtime";i:1454076341;s:7:"content";s:6980:"title = "Home"
+1454091312s:14417:"a:6:{s:5:"mtime";i:1454080068;s:7:"content";s:7117:"title = "Home"
 url = "/"
 layout = "amugraphics_layout"
 is_hidden = 0
@@ -6,7 +6,11 @@ is_hidden = 0
 <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-                <img id="logo" src="{{'assets/images/logo.png'|theme }}">
+            <div class="navbar-header">
+                <a style="font-size:15px" class="navbar-brand page-scroll" href="#page-top">
+                     Umagraphics
+                </a>
+            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -19,7 +23,7 @@ is_hidden = 0
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -146,10 +150,14 @@ is_hidden = 0
         <div class="container text-center">
             <p>Uma Graphics &copy; 2016</p>
         </div>
-    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:6903:"<!-- Navigation -->
+    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:7040:"<!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-                <img id="logo" src="{{'assets/images/logo.png'|theme }}">
+            <div class="navbar-header">
+                <a style="font-size:15px" class="navbar-brand page-scroll" href="#page-top">
+                     Umagraphics
+                </a>
+            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -162,7 +170,7 @@ is_hidden = 0
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
