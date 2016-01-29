@@ -89,7 +89,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                     <a href=\"#portfolioModal1\" class=\"portfolio-link\" data-toggle=\"modal\">
                         <div class=\"whiteback caption\">
                             <div class=\"caption-content\">
-                                <i class=\"fa fa-search-plus fa-3x\"></i>
+                                <h3>Interiors</h3>
                             </div>
                         </div>
                         <img id=\"square\" src=\"";
@@ -102,7 +102,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                     <a href=\"#portfolioModal2\" class=\"portfolio-link\" data-toggle=\"modal\">
                         <div class=\"caption\">
                             <div class=\"caption-content\">
-                                <i class=\"fa fa-search-plus fa-3x\"></i>
+                                <h3>Exteriors</h3>
                             </div>
                         </div>
                         <img id=\"square\" src=\"";
@@ -117,7 +117,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                     <a href=\"#portfolioModal4\" class=\"portfolio-link\" data-toggle=\"modal\">
                         <div class=\"caption\">
                             <div class=\"caption-content\">
-                                <i class=\"fa fa-search-plus fa-3x\"></i>
+                                <h3>Animations</h3>
                             </div>
                         </div>
                         <img id=\"square\" src=\"";
@@ -130,7 +130,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                     <a href=\"#portfolioModal5\" class=\"portfolio-link\" data-toggle=\"modal\">
                         <div class=\"caption\">
                             <div class=\"caption-content\">
-                                <i class=\"fa fa-search-plus fa-3x\"></i>
+                                <h3>Modeling</h3>
                             </div>
                         </div>
                         <img id=\"square\" src=\"";
@@ -262,7 +262,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">*/
 /*                         <div class="whiteback caption">*/
 /*                             <div class="caption-content">*/
-/*                                 <i class="fa fa-search-plus fa-3x"></i>*/
+/*                                 <h3>Interiors</h3>*/
 /*                             </div>*/
 /*                         </div>*/
 /*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
@@ -272,7 +272,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">*/
 /*                         <div class="caption">*/
 /*                             <div class="caption-content">*/
-/*                                 <i class="fa fa-search-plus fa-3x"></i>*/
+/*                                 <h3>Exteriors</h3>*/
 /*                             </div>*/
 /*                         </div>*/
 /*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
@@ -284,7 +284,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">*/
 /*                         <div class="caption">*/
 /*                             <div class="caption-content">*/
-/*                                 <i class="fa fa-search-plus fa-3x"></i>*/
+/*                                 <h3>Animations</h3>*/
 /*                             </div>*/
 /*                         </div>*/
 /*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
@@ -294,7 +294,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">*/
 /*                         <div class="caption">*/
 /*                             <div class="caption-content">*/
-/*                                 <i class="fa fa-search-plus fa-3x"></i>*/
+/*                                 <h3>Modeling</h3>*/
 /*                             </div>*/
 /*                         </div>*/
 /*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/

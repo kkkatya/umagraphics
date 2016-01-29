@@ -227,7 +227,7 @@ section.success a.active {
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
-    background: rgb(24,188,156);
+    background: rgb(168,168,168);
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {

@@ -1,4 +1,4 @@
-1454076065s:14311:"a:6:{s:5:"mtime";i:1454075459;s:7:"content";s:7064:"title = "Home"
+1454076943s:14143:"a:6:{s:5:"mtime";i:1454076341;s:7:"content";s:6980:"title = "Home"
 url = "/"
 layout = "amugraphics_layout"
 is_hidden = 0
@@ -73,7 +73,7 @@ is_hidden = 0
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="whiteback caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Interiors</h3>
                             </div>
                         </div>
                         <img id="square" src="{{'assets/images/square.png'|theme }}">
@@ -83,7 +83,7 @@ is_hidden = 0
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Exteriors</h3>
                             </div>
                         </div>
                         <img id="square" src="{{'assets/images/square.png'|theme }}">
@@ -95,7 +95,7 @@ is_hidden = 0
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Animations</h3>
                             </div>
                         </div>
                         <img id="square" src="{{'assets/images/square.png'|theme }}">
@@ -105,7 +105,7 @@ is_hidden = 0
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Modeling</h3>
                             </div>
                         </div>
                         <img id="square" src="{{'assets/images/square.png'|theme }}">
@@ -146,7 +146,7 @@ is_hidden = 0
         <div class="container text-center">
             <p>Uma Graphics &copy; 2016</p>
         </div>
-    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:6987:"<!-- Navigation -->
+    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:6903:"<!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
                 <img id="logo" src="{{'assets/images/logo.png'|theme }}">
@@ -216,7 +216,7 @@ is_hidden = 0
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="whiteback caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Interiors</h3>
                             </div>
                         </div>
                         <img id="square" src="{{'assets/images/square.png'|theme }}">
@@ -226,7 +226,7 @@ is_hidden = 0
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Exteriors</h3>
                             </div>
                         </div>
                         <img id="square" src="{{'assets/images/square.png'|theme }}">
@@ -238,7 +238,7 @@ is_hidden = 0
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Animations</h3>
                             </div>
                         </div>
                         <img id="square" src="{{'assets/images/square.png'|theme }}">
@@ -248,7 +248,7 @@ is_hidden = 0
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Modeling</h3>
                             </div>
                         </div>
                         <img id="square" src="{{'assets/images/square.png'|theme }}">
