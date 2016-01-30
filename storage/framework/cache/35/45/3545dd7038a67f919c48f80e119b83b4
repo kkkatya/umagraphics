@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1454173939s:10283:"a:6:{s:5:"mtime";i:1453932054;s:7:"content";s:5050:"title = "Home"
+=======
+1454091312s:14417:"a:6:{s:5:"mtime";i:1454080068;s:7:"content";s:7117:"title = "Home"
+>>>>>>> c1990ec42d3e7812dbbb8023474edf6cff475585
 url = "/"
 layout = "amugraphics_layout"
 is_hidden = 0
@@ -6,7 +10,11 @@ is_hidden = 0
 <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-                <img id="logo" src="{{'assets/images/logo.png'|theme }}">
+            <div class="navbar-header">
+                <a style="font-size:15px" class="navbar-brand page-scroll" href="#page-top">
+                     Umagraphics
+                </a>
+            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -19,7 +27,7 @@ is_hidden = 0
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -61,13 +69,55 @@ is_hidden = 0
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <section id="portfolio" id="download" class="content-section text-center">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+        <div id="portfolio-top" class="col-lg-12 col-lg-offset-3">
+            <div class="row">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="whiteback caption">
+                            <div class="caption-content">
+                                <h3>Interiors</h3>
+                            </div>
+                        </div>
+                        <img id="square" src="{{'assets/images/square.png'|theme }}">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Exteriors</h3>
+                            </div>
+                        </div>
+                        <img id="square" src="{{'assets/images/square.png'|theme }}">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Animations</h3>
+                            </div>
+                        </div>
+                        <img id="square" src="{{'assets/images/square.png'|theme }}">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Modeling</h3>
+                            </div>
+                        </div>
+                        <img id="square" src="{{'assets/images/square.png'|theme }}">
+                    </a>
                 </div>
             </div>
         </div>
@@ -102,12 +152,16 @@ is_hidden = 0
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Uma Graphics &copy; 2016</p>
         </div>
-    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4973:"<!-- Navigation -->
+    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:7040:"<!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-                <img id="logo" src="{{'assets/images/logo.png'|theme }}">
+            <div class="navbar-header">
+                <a style="font-size:15px" class="navbar-brand page-scroll" href="#page-top">
+                     Umagraphics
+                </a>
+            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -120,7 +174,7 @@ is_hidden = 0
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -162,13 +216,55 @@ is_hidden = 0
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <section id="portfolio" id="download" class="content-section text-center">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+        <div id="portfolio-top" class="col-lg-12 col-lg-offset-3">
+            <div class="row">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="whiteback caption">
+                            <div class="caption-content">
+                                <h3>Interiors</h3>
+                            </div>
+                        </div>
+                        <img id="square" src="{{'assets/images/square.png'|theme }}">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Exteriors</h3>
+                            </div>
+                        </div>
+                        <img id="square" src="{{'assets/images/square.png'|theme }}">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Animations</h3>
+                            </div>
+                        </div>
+                        <img id="square" src="{{'assets/images/square.png'|theme }}">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Modeling</h3>
+                            </div>
+                        </div>
+                        <img id="square" src="{{'assets/images/square.png'|theme }}">
+                    </a>
                 </div>
             </div>
         </div>
@@ -203,6 +299,6 @@ is_hidden = 0
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Uma Graphics &copy; 2016</p>
         </div>
     </footer>";}";

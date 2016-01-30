@@ -19,10 +19,11 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
         echo "<!-- Navigation -->
     <nav class=\"navbar navbar-custom navbar-fixed-top\" role=\"navigation\">
         <div class=\"container\">
-                <img id=\"logo\" src=\"";
-        // line 4
-        echo $this->env->getExtension('CMS')->themeFilter("assets/images/logo.png");
-        echo "\">
+            <div class=\"navbar-header\">
+                <a style=\"font-size:15px\" class=\"navbar-brand page-scroll\" href=\"#page-top\">
+                     Umagraphics
+                </a>
+            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class=\"collapse navbar-collapse navbar-right navbar-main-collapse\">
@@ -35,7 +36,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                         <a class=\"page-scroll\" href=\"#about\">About</a>
                     </li>
                     <li>
-                        <a class=\"page-scroll\" href=\"#download\">Portfolio</a>
+                        <a class=\"page-scroll\" href=\"#portfolio\">Portfolio</a>
                     </li>
                     <li>
                         <a class=\"page-scroll\" href=\"#contact\">Contact</a>
@@ -77,13 +78,67 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
     </section>
 
     <!-- Download Section -->
-    <section id=\"download\" class=\"content-section text-center\">
-        <div class=\"download-section\">
+    <section id=\"portfolio\" id=\"download\" class=\"content-section text-center\">
             <div class=\"container\">
                 <div class=\"col-lg-8 col-lg-offset-2\">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href=\"http://startbootstrap.com/template-overviews/grayscale/\" class=\"btn btn-default btn-lg\">Visit Download Page</a>
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+        <div id=\"portfolio-top\" class=\"col-lg-12 col-lg-offset-3\">
+            <div class=\"row\">
+                <div class=\"col-sm-3 portfolio-item\">
+                    <a href=\"#portfolioModal1\" class=\"portfolio-link\" data-toggle=\"modal\">
+                        <div class=\"whiteback caption\">
+                            <div class=\"caption-content\">
+                                <h3>Interiors</h3>
+                            </div>
+                        </div>
+                        <img id=\"square\" src=\"";
+        // line 78
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
+        echo "\">
+                    </a>
+                </div>
+                <div class=\"col-sm-3 portfolio-item\">
+                    <a href=\"#portfolioModal2\" class=\"portfolio-link\" data-toggle=\"modal\">
+                        <div class=\"caption\">
+                            <div class=\"caption-content\">
+                                <h3>Exteriors</h3>
+                            </div>
+                        </div>
+                        <img id=\"square\" src=\"";
+        // line 88
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
+        echo "\">
+                    </a>
+                </div>
+            </div>
+            <div class=\"row\">
+                <div class=\"col-sm-3 portfolio-item\">
+                    <a href=\"#portfolioModal4\" class=\"portfolio-link\" data-toggle=\"modal\">
+                        <div class=\"caption\">
+                            <div class=\"caption-content\">
+                                <h3>Animations</h3>
+                            </div>
+                        </div>
+                        <img id=\"square\" src=\"";
+        // line 100
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
+        echo "\">
+                    </a>
+                </div>
+                <div class=\"col-sm-3 portfolio-item\">
+                    <a href=\"#portfolioModal5\" class=\"portfolio-link\" data-toggle=\"modal\">
+                        <div class=\"caption\">
+                            <div class=\"caption-content\">
+                                <h3>Modeling</h3>
+                            </div>
+                        </div>
+                        <img id=\"square\" src=\"";
+        // line 110
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/square.png");
+        echo "\">
+                    </a>
                 </div>
             </div>
         </div>
@@ -118,7 +173,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
     <!-- Footer -->
     <footer>
         <div class=\"container text-center\">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Uma Graphics &copy; 2016</p>
         </div>
     </footer>";
     }
@@ -135,13 +190,17 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 
     public function getDebugInfo()
     {
-        return array (  24 => 4,  19 => 1,);
+        return array (  139 => 110,  126 => 100,  111 => 88,  98 => 78,  19 => 1,);
     }
 }
 /* <!-- Navigation -->*/
 /*     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">*/
 /*         <div class="container">*/
-/*                 <img id="logo" src="{{'assets/images/logo.png'|theme }}">*/
+/*             <div class="navbar-header">*/
+/*                 <a style="font-size:15px" class="navbar-brand page-scroll" href="#page-top">*/
+/*                      Umagraphics*/
+/*                 </a>*/
+/*             </div>*/
 /* */
 /*             <!-- Collect the nav links, forms, and other content for toggling -->*/
 /*             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">*/
@@ -154,7 +213,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                         <a class="page-scroll" href="#about">About</a>*/
 /*                     </li>*/
 /*                     <li>*/
-/*                         <a class="page-scroll" href="#download">Portfolio</a>*/
+/*                         <a class="page-scroll" href="#portfolio">Portfolio</a>*/
 /*                     </li>*/
 /*                     <li>*/
 /*                         <a class="page-scroll" href="#contact">Contact</a>*/
@@ -196,13 +255,55 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*     </section>*/
 /* */
 /*     <!-- Download Section -->*/
-/*     <section id="download" class="content-section text-center">*/
-/*         <div class="download-section">*/
+/*     <section id="portfolio" id="download" class="content-section text-center">*/
 /*             <div class="container">*/
 /*                 <div class="col-lg-8 col-lg-offset-2">*/
-/*                     <h2>Download Grayscale</h2>*/
-/*                     <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>*/
-/*                     <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>*/
+/*                     <h2>Portfolio</h2>*/
+/*                 </div>*/
+/*             </div>*/
+/*         <div id="portfolio-top" class="col-lg-12 col-lg-offset-3">*/
+/*             <div class="row">*/
+/*                 <div class="col-sm-3 portfolio-item">*/
+/*                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">*/
+/*                         <div class="whiteback caption">*/
+/*                             <div class="caption-content">*/
+/*                                 <h3>Interiors</h3>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
+/*                     </a>*/
+/*                 </div>*/
+/*                 <div class="col-sm-3 portfolio-item">*/
+/*                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">*/
+/*                         <div class="caption">*/
+/*                             <div class="caption-content">*/
+/*                                 <h3>Exteriors</h3>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
+/*                     </a>*/
+/*                 </div>*/
+/*             </div>*/
+/*             <div class="row">*/
+/*                 <div class="col-sm-3 portfolio-item">*/
+/*                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">*/
+/*                         <div class="caption">*/
+/*                             <div class="caption-content">*/
+/*                                 <h3>Animations</h3>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
+/*                     </a>*/
+/*                 </div>*/
+/*                 <div class="col-sm-3 portfolio-item">*/
+/*                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">*/
+/*                         <div class="caption">*/
+/*                             <div class="caption-content">*/
+/*                                 <h3>Modeling</h3>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                         <img id="square" src="{{'assets/images/square.png'|theme }}">*/
+/*                     </a>*/
 /*                 </div>*/
 /*             </div>*/
 /*         </div>*/
@@ -237,6 +338,6 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*     <!-- Footer -->*/
 /*     <footer>*/
 /*         <div class="container text-center">*/
-/*             <p>Copyright &copy; Your Website 2014</p>*/
+/*             <p>Uma Graphics &copy; 2016</p>*/
 /*         </div>*/
 /*     </footer>*/
