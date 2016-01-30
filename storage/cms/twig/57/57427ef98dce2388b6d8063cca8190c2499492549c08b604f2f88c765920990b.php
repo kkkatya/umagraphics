@@ -173,7 +173,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
     <!-- Footer -->
     <footer>
         <div class=\"container text-center\">
-            <p>Uma Graphics &copy; 2016</p>
+            <p>UMAGRAPHICS &copy; 2016</p>
         </div>
     </footer>";
     }
@@ -338,6 +338,6 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*     <!-- Footer -->*/
 /*     <footer>*/
 /*         <div class="container text-center">*/
-/*             <p>Uma Graphics &copy; 2016</p>*/
+/*             <p>UMAGRAPHICS &copy; 2016</p>*/
 /*         </div>*/
 /*     </footer>*/
