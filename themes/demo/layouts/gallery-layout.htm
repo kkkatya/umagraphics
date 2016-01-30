@@ -13,7 +13,7 @@
     <title>{{ this.page.title}}|Gallery</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="{{['assets/css/bootstrap.min.css','assets/css/thumbnail-gallery.css']|theme}}" rel="stylesheet">
+    <link href="{{['assets/css/bootstrap.min.css','assets/css/thumbnail-gallery.css','assets/css/gallery/blueimp-gallery.min.css']|theme}}" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -26,11 +26,20 @@
 </head>
 
 <body>
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="close">×</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+    </div>
     {% page %}
     
 <!-- jQuery -->
-    <script src="{{['assets/javascript/jquery.js','assets/javascript/bootstrap.min.js']|theme}}"></script>
-
+    <script src="{{['assets/javascript/jquery.js','assets/javascript/bootstrap.min.js','assets/javascript/gallery/blueimp-gallery.min.js']|theme}}"></script>
+    
 
 </body>
 
