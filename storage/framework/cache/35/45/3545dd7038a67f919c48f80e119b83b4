@@ -1,4 +1,4 @@
-1454092204s:14415:"a:6:{s:5:"mtime";i:1454091602;s:7:"content";s:7116:"title = "Home"
+1454174693s:14403:"a:6:{s:5:"mtime";i:1454174090;s:7:"content";s:7110:"title = "Home"
 url = "/"
 layout = "amugraphics_layout"
 is_hidden = 0
@@ -74,7 +74,7 @@ is_hidden = 0
         <div id="portfolio-top" class="col-lg-12 col-lg-offset-3">
             <div class="row">
                 <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="/interiors" class="portfolio-link" data-toggle="modal">
                         <div class="whiteback caption">
                             <div class="caption-content">
                                 <h3>Interiors</h3>
@@ -150,7 +150,7 @@ is_hidden = 0
         <div class="container text-center">
             <p>UMAGRAPHICS &copy; 2016</p>
         </div>
-    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:7039:"<!-- Navigation -->
+    </footer>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:18:"amugraphics_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:7033:"<!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -221,7 +221,7 @@ is_hidden = 0
         <div id="portfolio-top" class="col-lg-12 col-lg-offset-3">
             <div class="row">
                 <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="/interiors" class="portfolio-link" data-toggle="modal">
                         <div class="whiteback caption">
                             <div class="caption-content">
                                 <h3>Interiors</h3>
