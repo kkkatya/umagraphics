@@ -87,8 +87,8 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
         <div id=\"portfolio-top\" class=\"col-lg-12 col-lg-offset-3\">
             <div class=\"row\">
                 <div class=\"col-sm-3 portfolio-item\">
-                    <a href=\"/interiors\" class=\"portfolio-link\" data-toggle=\"modal\">
-                        <div class=\"whiteback caption\">
+                    <a href=\"/interiors\" class=\"portfolio-link\" >
+                        <div class=\"caption coollink\">
                             <div class=\"caption-content\">
                                 <h3>Interiors</h3>
                             </div>
@@ -101,7 +101,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                 </div>
                 <div class=\"col-sm-3 portfolio-item\">
                     <a href=\"/exteriors\" class=\"portfolio-link\" data-toggle=\"modal\">
-                        <div class=\"caption\">
+                        <div class=\"caption coollink\">
                             <div class=\"caption-content\">
                                 <h3>Exteriors</h3>
                             </div>
@@ -116,7 +116,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
             <div class=\"row\">
                 <div class=\"col-sm-3 portfolio-item\">
                     <a href=\"/animations\" class=\"portfolio-link\" data-toggle=\"modal\">
-                        <div class=\"caption\">
+                        <div class=\"caption coollink\">
                             <div class=\"caption-content\">
                                 <h3>Animations</h3>
                             </div>
@@ -129,7 +129,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                 </div>
                 <div class=\"col-sm-3 portfolio-item\">
                     <a href=\"/exteriors\" class=\"portfolio-link\" data-toggle=\"modal\">
-                        <div class=\"caption\">
+                        <div class=\"caption coollink\">
                             <div class=\"caption-content\">
                                 <h3>Modeling</h3>
                             </div>
@@ -264,8 +264,8 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*         <div id="portfolio-top" class="col-lg-12 col-lg-offset-3">*/
 /*             <div class="row">*/
 /*                 <div class="col-sm-3 portfolio-item">*/
-/*                     <a href="/interiors" class="portfolio-link" data-toggle="modal">*/
-/*                         <div class="whiteback caption">*/
+/*                     <a href="/interiors" class="portfolio-link" >*/
+/*                         <div class="caption coollink">*/
 /*                             <div class="caption-content">*/
 /*                                 <h3>Interiors</h3>*/
 /*                             </div>*/
@@ -275,7 +275,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                 </div>*/
 /*                 <div class="col-sm-3 portfolio-item">*/
 /*                     <a href="/exteriors" class="portfolio-link" data-toggle="modal">*/
-/*                         <div class="caption">*/
+/*                         <div class="caption coollink">*/
 /*                             <div class="caption-content">*/
 /*                                 <h3>Exteriors</h3>*/
 /*                             </div>*/
@@ -287,7 +287,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*             <div class="row">*/
 /*                 <div class="col-sm-3 portfolio-item">*/
 /*                     <a href="/animations" class="portfolio-link" data-toggle="modal">*/
-/*                         <div class="caption">*/
+/*                         <div class="caption coollink">*/
 /*                             <div class="caption-content">*/
 /*                                 <h3>Animations</h3>*/
 /*                             </div>*/
@@ -297,7 +297,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                 </div>*/
 /*                 <div class="col-sm-3 portfolio-item">*/
 /*                     <a href="/exteriors" class="portfolio-link" data-toggle="modal">*/
-/*                         <div class="caption">*/
+/*                         <div class="caption coollink">*/
 /*                             <div class="caption-content">*/
 /*                                 <h3>Modeling</h3>*/
 /*                             </div>*/
