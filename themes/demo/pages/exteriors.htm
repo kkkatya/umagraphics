@@ -1,0 +1,65 @@
+title = "Exteriors"
+url = "/exteriors"
+layout = "gallery-layout"
+is_hidden = 0
+
+[gallery]
+idGallery = 2
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "slide"
+speed = 500
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 300
+width = 400
+resizer = "crop"
+
+[gallery gallery2]
+idGallery = 2
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "slide"
+speed = 500
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 300
+width = 400
+resizer = "crop"
+==
+<!-- Page Content -->
+    <div style="margin-top: 3%" class="container">
+
+        <div class="row">
+            <div id="links">
+            {% component 'gallery' %}
+            {% component 'gallery2' %}
+            </div>
+        </div>
+        </div>
+<script>
+    document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+</script>

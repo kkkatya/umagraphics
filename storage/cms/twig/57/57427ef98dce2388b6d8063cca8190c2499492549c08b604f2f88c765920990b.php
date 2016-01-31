@@ -100,7 +100,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                     </a>
                 </div>
                 <div class=\"col-sm-3 portfolio-item\">
-                    <a href=\"#portfolioModal2\" class=\"portfolio-link\" data-toggle=\"modal\">
+                    <a href=\"/exteriors\" class=\"portfolio-link\" data-toggle=\"modal\">
                         <div class=\"caption\">
                             <div class=\"caption-content\">
                                 <h3>Exteriors</h3>
@@ -115,7 +115,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
             </div>
             <div class=\"row\">
                 <div class=\"col-sm-3 portfolio-item\">
-                    <a href=\"#portfolioModal4\" class=\"portfolio-link\" data-toggle=\"modal\">
+                    <a href=\"/animations\" class=\"portfolio-link\" data-toggle=\"modal\">
                         <div class=\"caption\">
                             <div class=\"caption-content\">
                                 <h3>Animations</h3>
@@ -128,7 +128,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
                     </a>
                 </div>
                 <div class=\"col-sm-3 portfolio-item\">
-                    <a href=\"#portfolioModal5\" class=\"portfolio-link\" data-toggle=\"modal\">
+                    <a href=\"/exteriors\" class=\"portfolio-link\" data-toggle=\"modal\">
                         <div class=\"caption\">
                             <div class=\"caption-content\">
                                 <h3>Modeling</h3>
@@ -274,7 +274,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                     </a>*/
 /*                 </div>*/
 /*                 <div class="col-sm-3 portfolio-item">*/
-/*                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">*/
+/*                     <a href="/exteriors" class="portfolio-link" data-toggle="modal">*/
 /*                         <div class="caption">*/
 /*                             <div class="caption-content">*/
 /*                                 <h3>Exteriors</h3>*/
@@ -286,7 +286,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*             </div>*/
 /*             <div class="row">*/
 /*                 <div class="col-sm-3 portfolio-item">*/
-/*                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">*/
+/*                     <a href="/animations" class="portfolio-link" data-toggle="modal">*/
 /*                         <div class="caption">*/
 /*                             <div class="caption-content">*/
 /*                                 <h3>Animations</h3>*/
@@ -296,7 +296,7 @@ class __TwigTemplate_d12cb52e3da6885a83126f0a443a45f55b2acad6e4ebcdf36ee5430f031
 /*                     </a>*/
 /*                 </div>*/
 /*                 <div class="col-sm-3 portfolio-item">*/
-/*                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">*/
+/*                     <a href="/exteriors" class="portfolio-link" data-toggle="modal">*/
 /*                         <div class="caption">*/
 /*                             <div class="caption-content">*/
 /*                                 <h3>Modeling</h3>*/
